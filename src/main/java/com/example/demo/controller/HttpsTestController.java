@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("httpsTestController")
 public class HttpsTestController {
 
+    // 测试https接口   https://localhost:9090/servicer-example/httpsTestController/testGet?message=456
     @GetMapping("testGet")
     public String testGet(@RequestParam("message") String message) {
         System.out.println("sfd" + message);
