@@ -2,7 +2,7 @@ package com.example.demo.entity;
 
 import lombok.Data;
 
-import java.sql.Date;
+import java.time.LocalDateTime;
 
 /**
  * @Author grassPrince
@@ -12,13 +12,13 @@ import java.sql.Date;
 @Data
 public class User {
 
-    private Long id;
+    private String id;
     private String name;
     private String pwd;
-    private Date accessTime;
+    private LocalDateTime accessTime;
     private Integer deleteFlag;
 
-    public User(Long id, String name, String pwd, Date accessTime, Integer deleteFlag) {
+    public User(String id, String name, String pwd, LocalDateTime accessTime, Integer deleteFlag) {
         this.id = id;
         this.name = name;
         this.pwd = pwd;

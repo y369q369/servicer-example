@@ -3,12 +3,13 @@ server:
   ssl:
     key-store: classpath:4192011_worldexploration.icu.pfx
     key-store-password: 6d1S2bQ6
+    key-store-type: PKCS12
   servlet:
     context-path: /servicer-example
 
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc://mysql://120.26.184.85/mysql
+    url: jdbc:mysql://120.26.184.85:3306/test
     username: root
     password: 123456
