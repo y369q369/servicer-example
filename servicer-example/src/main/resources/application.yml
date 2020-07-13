@@ -1,0 +1,14 @@
+server:
+  port: 9090
+  ssl:
+    key-store: classpath:4192011_worldexploration.icu.pfx
+    key-store-password: 6d1S2bQ6
+  servlet:
+    context-path: /servicer-example
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc://mysql://120.26.184.85/mysql
+    username: root
+    password: 123456
