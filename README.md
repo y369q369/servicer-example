@@ -22,7 +22,7 @@
 
 ​	** 微信小程序需要域名， 故本例使用的阿里云的免费ssl证书
 
-1.  安装ssl证书：  https://blog.csdn.net/binbinczsohu/article/details/107287448
+1.  安装ssl证书:     https://blog.csdn.net/binbinczsohu/article/details/107287448
 
 2.  配置ssl证书:     https://www.jianshu.com/p/07381c68c403
 
