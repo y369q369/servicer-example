@@ -13,3 +13,9 @@ spring:
     url: jdbc:mysql://120.26.184.85:3306/test
     username: root
     password: 123456
+
+#MyBatis Plus Config
+##是否控制台 print mybatis-plus 的 LOGO
+mybatis-plus:
+  global-config:
+    banner: false
